@@ -1,0 +1,529 @@
+==============================================================
+ _     _                   ______     _         _____    _____
+| |   (_)                  | ___ \   (_)       |  ___|  /  __ 
+| |    _ _ __  _   ___  __ | |_/ / __ ___   __ | |__ ___| /  \/
+| |   | | '_ \| | | \ \/ / |  __/ '__| \ \ / / |  __/ __| |
+| |___| | | | | |_| |>  <  | |  | |  | |\ V /  | |__\__ \ \__/
+\_____/_|_| |_|\__,_/_/\_\ \_|  |_|  |_| \_/   \____/___/\____/
+===============================================================
+                                                       By Sp00ky
+
+=============Checking Bash History==============
+vlc
+exit
+./LPEC.sh 
+exit
+===================Done=========================
+============Checking Kernel version============
+Linux MrSinister 5.2.0-kali2-amd64 #1 SMP Debian 5.2.9-2kali1 (2019-08-22) x86_64 GNU/Linux
+===================Done=========================
+===============Checking current user============
+uid=1000(test) gid=1000(test) groups=1000(test)
+===================Done=========================
+Checking which files current user is allowed to run as a privileged user...
+./LPEC.sh: line 25: sudo: Permission denied
+===========Checking for SUID Binaries===========
+/usr/sbin/mount.cifs
+/usr/sbin/pppd
+/usr/sbin/mount.nfs
+/usr/sbin/vmware-authd
+/usr/sbin/exim4
+/usr/bin/su
+/usr/bin/mount
+/usr/bin/newgrp
+/usr/bin/chfn
+/usr/bin/ntfs-3g
+/usr/bin/pkexec
+/usr/bin/passwd
+/usr/bin/nvidia-modprobe
+/usr/bin/kismet_cap_linux_bluetooth
+/usr/bin/sudo
+/usr/bin/umount
+/usr/bin/kismet_cap_nrf_mousejack
+/usr/bin/kismet_cap_linux_wifi
+/usr/bin/gpasswd
+/usr/bin/chsh
+/usr/bin/fusermount
+/usr/lib/openssh/ssh-keysign
+/usr/lib/policykit-1/polkit-agent-helper-1
+/usr/lib/virtualbox/VBoxHeadless
+/usr/lib/virtualbox/VBoxSDL
+/usr/lib/virtualbox/VBoxNetNAT
+/usr/lib/virtualbox/VirtualBoxVM
+/usr/lib/virtualbox/VBoxNetAdpCtl
+/usr/lib/virtualbox/VBoxNetDHCP
+/usr/lib/eject/dmcrypt-get-device
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/xorg/Xorg.wrap
+/usr/lib/vmware/bin/vmware-vmx-debug
+/usr/lib/vmware/bin/vmware-vmx
+/usr/lib/vmware/bin/vmware-vmx-stats
+/opt/google/chrome/chrome-sandbox
+===================Done=========================
+Checking TCP/UDP connections...
+(No info could be read for "-p": geteuid()=1000 but you should be root.)
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.1:8307          0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:443             0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:6463          0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:902             0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -                   
+tcp        0      0 192.168.1.106:60338     35.186.224.53:443       TIME_WAIT   -                   
+tcp        0      0 192.168.1.106:58000     104.244.42.200:443      ESTABLISHED -                   
+tcp        0      0 192.168.1.106:40844     185.199.108.154:443     ESTABLISHED -                   
+tcp        0      0 192.168.1.106:49176     34.249.167.4:8282       ESTABLISHED -                   
+tcp        0      0 192.168.1.106:49838     162.159.135.234:443     ESTABLISHED -                   
+tcp        0      0 192.168.1.106:50572     151.101.186.109:443     ESTABLISHED -                   
+tcp        0      0 192.168.1.106:48112     162.159.134.233:443     ESTABLISHED -                   
+tcp        0      0 192.168.1.106:43266     35.186.224.47:443       ESTABLISHED -                   
+tcp        0      0 192.168.1.106:41628     130.211.16.53:443       ESTABLISHED -                   
+tcp        0      0 192.168.1.106:32782     162.159.135.233:443     ESTABLISHED -                   
+tcp        0      0 192.168.1.106:37740     162.159.133.232:443     ESTABLISHED -                   
+tcp        0      0 192.168.1.106:47460     185.199.108.153:443     ESTABLISHED -                   
+tcp        0      0 192.168.1.106:51798     162.159.134.232:443     ESTABLISHED -                   
+tcp6       0      0 ::1:8307                :::*                    LISTEN      -                   
+tcp6       0      0 :::1716                 :::*                    LISTEN      -                   
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+tcp6       0      0 ::1:5432                :::*                    LISTEN      -                   
+tcp6       0      0 :::443                  :::*                    LISTEN      -                   
+tcp6       0      0 :::902                  :::*                    LISTEN      -                   
+tcp6       0      0 :::111                  :::*                    LISTEN      -                   
+tcp6       0      0 2604:6000:1103:41:55324 2620:119:50e6:101:::443 ESTABLISHED -                   
+tcp6       0      0 2604:6000:1103:41:40554 2607:f8b0:4009:805::443 ESTABLISHED -                   
+tcp6       0      0 2604:6000:1103:41:40562 2606:4700:7::a29f:8:443 ESTABLISHED -                   
+tcp6       0      0 2604:6000:1103:41:35834 2607:f8b0:4001:c12:5228 ESTABLISHED -                   
+udp        0      0 192.168.1.106:68        0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           -                   
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           -                   
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           -                   
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           -                   
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           -                   
+udp6       0      0 :::111                  :::*                                -                   
+udp6       0      0 fe80::d250:99ff:fe8:546 :::*                                -                   
+udp6       0      0 :::1716                 :::*                                -                   
+udp6       0      0 ::1:51956               ::1:51956               ESTABLISHED -                   
+===================Done=========================
+Checking Interfaces/IP Addresses on device
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.106  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 2604:6000:1103:4192:809c:c87e:40ef:e2e1  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::d250:99ff:fe8e:9f9b  prefixlen 64  scopeid 0x20<link>
+        inet6 2604:6000:1103:4192:d250:99ff:fe8e:9f9b  prefixlen 64  scopeid 0x0<global>
+        ether d0:50:99:8e:9f:9b  txqueuelen 1000  (Ethernet)
+        RX packets 872697  bytes 1132318999 (1.0 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 214684  bytes 30132713 (28.7 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  memory 0xdf400000-df420000  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 2780  bytes 995097 (971.7 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2780  bytes 995097 (971.7 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vmnet1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.16.143.1  netmask 255.255.255.0  broadcast 172.16.143.255
+        inet6 fe80::250:56ff:fec0:1  prefixlen 64  scopeid 0x20<link>
+        ether 00:50:56:c0:00:01  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 327  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vmnet8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.16.185.1  netmask 255.255.255.0  broadcast 172.16.185.255
+        inet6 fe80::250:56ff:fec0:8  prefixlen 64  scopeid 0x20<link>
+        ether 00:50:56:c0:00:08  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 327  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+===================Done=========================
+Checking for other partitions that may be mountable
+fdisk: cannot open /dev/sda: Permission denied
+fdisk: cannot open /dev/sdb: Permission denied
+fdisk: cannot open /dev/sdc: Permission denied
+===================Done=========================
+Checking for files in /var/www... Subdomains with Virtual Host Routing may be interesting to look at...
+Keep an eye out for any database connection files, ex. Wordpress Config...
+total 12
+drwxr-xr-x  3 root root 4096 Sep  1 02:28 .
+drwxr-xr-x 13 root root 4096 Sep  1 04:10 ..
+drwxr-xr-x  2 root root 4096 Sep  1 02:28 html
+===================Done=========================
+======Checking contents of /etc/passwd==========
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+_apt
+systemd-timesync
+systemd-network
+systemd-resolve
+mysql
+ntp
+messagebus
+arpwatch
+Debian-exim
+uuidd
+redsocks
+tss
+rwhod
+iodine
+miredo
+dnsmasq
+postgres
+usbmux
+rtkit
+stunnel4
+sshd
+Debian-snmp
+sslh
+pulse
+avahi
+inetsim
+geoclue
+sddm
+king-phisher
+dradis
+beef-xss
+systemd-coredump
+_rpc
+statd
+nvpd
+test
+tcpdump
+===================Done=========================
+======Checking if /etc/shadow is writeable======
+cat: /etc/shadow: Permission denied
+===================Done=========================
+Checking if /etc/shadow.bak and /etc/passwd.bak exist
+/etc/shadow.bak: cannot open `/etc/shadow.bak' (No such file or directory)
+/etc/passwd.bak: cannot open `/etc/passwd.bak' (No such file or directory)
+===================Done=========================
+==============Checking /etc/hosts===============
+127.0.0.1       localhost
+127.0.1.1       MrSinister
+#Craft
+<redacted>
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+===================Done=========================
+=======Checking /mnt/ and /tmp/ directory=======
+total 12
+drwxr-xr-x  3 root root 4096 Sep 17 01:42 .
+drwxr-xr-x 19 root root 4096 Sep  1 04:54 ..
+drwxr-xr-x  2 root root 4096 Sep 17 01:42 jffs2_file
+total 84
+drwxrwxrwt 20 root root 4096 Sep 30 23:51  .
+drwxr-xr-x 19 root root 4096 Sep  1 04:54  ..
+drwx------  2 root root 4096 Sep 30 22:33  .com.google.Chrome.VqsDja
+drwx------  2 root root 4096 Sep 30 21:25 'Discord Crashes'
+srwxr-xr-x  1 root root    0 Sep 30 23:50  discord.sock
+drwxrwxrwt  2 root root 4096 Sep 30 21:24  .font-unix
+drwxrwxrwt  2 root root 4096 Sep 30 21:24  .ICE-unix
+drwx------  2 root root 4096 Sep 30 21:25  net-export
+drwx------  3 root root 4096 Sep 30 21:25  .org.chromium.Chromium.0k3wWr
+drwx------  3 root root 4096 Sep 30 23:50  .org.chromium.Chromium.ioKaHL
+drwx------  2 root root 4096 Sep 30 21:24  pulse-PKdhtXMmr18n
+srwx------  1 sddm sddm    0 Sep 30 21:24  sddm-:0-jbEDzv
+srwxr-xr-x  1 root root    0 Sep 30 21:24  sddm-auth22edf88c-e74b-46e7-bb03-99474f1388c8
+drwx------  2 root root 4096 Sep 30 21:24  ssh-Lx5zQz1zvVmv
+drwx------  3 root root 4096 Sep 30 21:24  systemd-private-7e83a9535ffd4f70ac6b0a4c2ce07d51-haveged.service-ShGhyV
+drwx------  3 root root 4096 Sep 30 21:24  systemd-private-7e83a9535ffd4f70ac6b0a4c2ce07d51-ModemManager.service-ktSlrS
+drwx------  3 root root 4096 Sep 30 21:24  systemd-private-7e83a9535ffd4f70ac6b0a4c2ce07d51-systemd-logind.service-Q19HVo
+drwx------  3 root root 4096 Sep 30 21:24  systemd-private-7e83a9535ffd4f70ac6b0a4c2ce07d51-upower.service-l6IFqd
+drwxrwxrwt  2 root root 4096 Sep 30 21:24  .Test-unix
+drwxrwxrwt  2 root root 4096 Sep 30 21:24  VMwareDnD
+drwx------  2 root root 4096 Sep 30 21:24  vmware-root
+drwxrwxrwt  2 root root 4096 Sep 30 21:24  .X11-unix
+-rw-------  1 root root   55 Sep 30 21:24  xauth-0-_0
+drwxrwxrwt  2 root root 4096 Sep 30 21:24  .XIM-unix
+===================Done=========================
+============Checking Cronjob...=================
+no crontab for test
+===================Done=========================
+========Checking for .dockernev=================
+/.dockerenv: cannot open `/.dockerenv' (No such file or directory)
+===================Done=========================
+=========Checking Contents of .ssh in===========
+ls: cannot access '/home/test/.ssh': No such file or directory
+===================Done=========================
+========Checking contents of home dir===========
+total 204
+drwxr-xr-x 16 test test   4096 Sep 12 21:02 .
+drwxr-xr-x  3 root root   4096 Sep  8 01:16 ..
+-rw-------  1 test test    519 Sep 30 23:49 .bash_history
+-rw-r--r--  1 test test    220 Sep  8 01:16 .bash_logout
+-rw-r--r--  1 test test   3391 Sep  8 01:16 .bashrc
+-rw-r--r--  1 test test   3526 Sep  8 01:16 .bashrc.original
+drwxr-xr-x  5 test test   4096 Sep 12 21:02 .cache
+drwx------  9 test test   4096 Sep 12 21:03 .config
+drwxr-xr-x  2 test test   4096 Sep  8 01:17 Desktop
+drwxr-xr-x  2 test test   4096 Sep  8 01:17 Documents
+drwxr-xr-x  2 test test   4096 Sep  8 01:17 Downloads
+drwx------  3 test test   4096 Sep  8 01:16 .gnupg
+-rw-r--r--  1 test test    375 Sep 12 21:03 .gtkrc-2.0
+drwxr-xr-x  3 test test   4096 Sep  8 01:17 .kde
+drwx------  3 test test   4096 Sep  8 01:16 .local
+drwxr-xr-x  2 test test   4096 Sep  8 01:17 Music
+drwx------  3 test test   4096 Sep  8 01:17 .nv
+drwxr-xr-x  2 test test   4096 Sep  8 01:17 Pictures
+-rw-r--r--  1 test test    807 Sep  8 01:16 .profile
+drwxr-xr-x  2 test test   4096 Sep  8 01:17 Public
+drwxr-xr-x  2 test test   4096 Sep  8 01:17 Templates
+drwxr-xr-x  2 test test   4096 Sep  8 01:17 Videos
+-rw-------  1 test test     55 Sep 12 21:02 .Xauthority
+-rw-------  1 test test 110114 Sep 12 21:03 .xsession-errors
+===================Done=========================
+===========Checking running proccesses==========
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 166444 10256 ?        Ss   21:24   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    21:24   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   21:24   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   21:24   0:00 [rcu_par_gp]
+root         6  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/0:0H-kblockd]
+root         9  0.0  0.0      0     0 ?        I<   21:24   0:00 [mm_percpu_wq]
+root        10  0.0  0.0      0     0 ?        S    21:24   0:00 [ksoftirqd/0]
+root        11  0.0  0.0      0     0 ?        I    21:24   0:03 [rcu_sched]
+root        12  0.0  0.0      0     0 ?        S    21:24   0:00 [migration/0]
+root        13  0.0  0.0      0     0 ?        S    21:24   0:00 [cpuhp/0]
+root        14  0.0  0.0      0     0 ?        S    21:24   0:00 [cpuhp/1]
+root        15  0.0  0.0      0     0 ?        S    21:24   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    21:24   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/1:0H-kblockd]
+root        19  0.0  0.0      0     0 ?        S    21:24   0:00 [cpuhp/2]
+root        20  0.0  0.0      0     0 ?        S    21:24   0:00 [migration/2]
+root        21  0.0  0.0      0     0 ?        S    21:24   0:00 [ksoftirqd/2]
+root        22  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/2:0-events]
+root        23  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/2:0H-kblockd]
+root        24  0.0  0.0      0     0 ?        S    21:24   0:00 [cpuhp/3]
+root        25  0.0  0.0      0     0 ?        S    21:24   0:00 [migration/3]
+root        26  0.0  0.0      0     0 ?        S    21:24   0:00 [ksoftirqd/3]
+root        28  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/3:0H-kblockd]
+root        29  0.0  0.0      0     0 ?        S    21:24   0:00 [cpuhp/4]
+root        30  0.0  0.0      0     0 ?        S    21:24   0:00 [migration/4]
+root        31  0.0  0.0      0     0 ?        S    21:24   0:00 [ksoftirqd/4]
+root        33  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/4:0H-kblockd]
+root        34  0.0  0.0      0     0 ?        S    21:24   0:00 [cpuhp/5]
+root        35  0.0  0.0      0     0 ?        S    21:24   0:00 [migration/5]
+root        36  0.0  0.0      0     0 ?        S    21:24   0:00 [ksoftirqd/5]
+root        37  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/5:0-cgroup_destroy]
+root        38  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/5:0H-kblockd]
+root        39  0.0  0.0      0     0 ?        S    21:24   0:00 [cpuhp/6]
+root        40  0.0  0.0      0     0 ?        S    21:24   0:00 [migration/6]
+root        41  0.0  0.0      0     0 ?        S    21:24   0:00 [ksoftirqd/6]
+root        43  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/6:0H-kblockd]
+root        44  0.0  0.0      0     0 ?        S    21:24   0:00 [cpuhp/7]
+root        45  0.0  0.0      0     0 ?        S    21:24   0:00 [migration/7]
+root        46  0.0  0.0      0     0 ?        S    21:24   0:00 [ksoftirqd/7]
+root        48  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/7:0H-kblockd]
+root        49  0.0  0.0      0     0 ?        S    21:24   0:00 [kdevtmpfs]
+root        50  0.0  0.0      0     0 ?        I<   21:24   0:00 [netns]
+root        51  0.0  0.0      0     0 ?        S    21:24   0:00 [kauditd]
+root        52  0.0  0.0      0     0 ?        S    21:24   0:00 [khungtaskd]
+root        53  0.0  0.0      0     0 ?        S    21:24   0:00 [oom_reaper]
+root        54  0.0  0.0      0     0 ?        I<   21:24   0:00 [writeback]
+root        55  0.0  0.0      0     0 ?        S    21:24   0:00 [kcompactd0]
+root        56  0.0  0.0      0     0 ?        SN   21:24   0:00 [ksmd]
+root        57  0.0  0.0      0     0 ?        SN   21:24   0:00 [khugepaged]
+root        58  0.0  0.0      0     0 ?        I<   21:24   0:00 [crypto]
+root       100  0.0  0.0      0     0 ?        I<   21:24   0:00 [kintegrityd]
+root       101  0.0  0.0      0     0 ?        I<   21:24   0:00 [kblockd]
+root       102  0.0  0.0      0     0 ?        I<   21:24   0:00 [edac-poller]
+root       103  0.0  0.0      0     0 ?        I<   21:24   0:00 [devfreq_wq]
+root       104  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/1:1-mm_percpu_wq]
+root       106  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/3:1-events]
+root       107  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/4:1-events]
+root       108  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/7:1-events]
+root       109  0.0  0.0      0     0 ?        S    21:24   0:00 [kswapd0]
+root       110  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/u17:0]
+root       111  0.0  0.0      0     0 ?        I<   21:24   0:00 [kthrotld]
+root       112  0.0  0.0      0     0 ?        I<   21:24   0:00 [acpi_thermal_pm]
+root       113  0.0  0.0      0     0 ?        I<   21:24   0:00 [ipv6_addrconf]
+root       124  0.0  0.0      0     0 ?        I<   21:24   0:00 [kstrp]
+root       148  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/6:2-events]
+root       149  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/6:3-events]
+root       169  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/0:2-events]
+root       189  0.0  0.0      0     0 ?        I<   21:24   0:00 [ata_sff]
+root       262  0.0  0.0      0     0 ?        S    21:24   0:00 [scsi_eh_0]
+root       263  0.0  0.0      0     0 ?        I<   21:24   0:00 [scsi_tmf_0]
+root       264  0.0  0.0      0     0 ?        S    21:24   0:00 [scsi_eh_1]
+root       265  0.0  0.0      0     0 ?        I<   21:24   0:00 [scsi_tmf_1]
+root       266  0.0  0.0      0     0 ?        S    21:24   0:00 [scsi_eh_2]
+root       267  0.0  0.0      0     0 ?        I<   21:24   0:00 [scsi_tmf_2]
+root       268  0.0  0.0      0     0 ?        S    21:24   0:00 [scsi_eh_3]
+root       269  0.0  0.0      0     0 ?        I<   21:24   0:00 [scsi_tmf_3]
+root       270  0.0  0.0      0     0 ?        S    21:24   0:00 [scsi_eh_4]
+root       271  0.0  0.0      0     0 ?        I<   21:24   0:00 [scsi_tmf_4]
+root       272  0.0  0.0      0     0 ?        S    21:24   0:00 [scsi_eh_5]
+root       273  0.0  0.0      0     0 ?        I<   21:24   0:00 [scsi_tmf_5]
+root       279  0.0  0.0      0     0 ?        S    21:24   0:00 [scsi_eh_6]
+root       280  0.0  0.0      0     0 ?        I<   21:24   0:00 [scsi_tmf_6]
+root       281  0.0  0.0      0     0 ?        S    21:24   0:00 [scsi_eh_7]
+root       282  0.0  0.0      0     0 ?        I<   21:24   0:00 [scsi_tmf_7]
+root       285  0.0  0.0      0     0 ?        S    21:24   0:00 [scsi_eh_8]
+root       286  0.0  0.0      0     0 ?        I<   21:24   0:00 [scsi_tmf_8]
+root       287  0.0  0.0      0     0 ?        S    21:24   0:00 [scsi_eh_9]
+root       288  0.0  0.0      0     0 ?        I<   21:24   0:00 [scsi_tmf_9]
+root       300  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/3:1H-kblockd]
+root       301  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/7:2-events]
+root       303  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/1:1H-kblockd]
+root       305  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/4:2-pm]
+root       335  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/2:1H-kblockd]
+root       340  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/4:1H-kblockd]
+root       341  0.0  0.0      0     0 ?        S    21:24   0:01 [jbd2/sdc2-8]
+root       342  0.0  0.0      0     0 ?        I<   21:24   0:00 [ext4-rsv-conver]
+root       343  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/0:1H-kblockd]
+root       350  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/6:1H-kblockd]
+root       357  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/7:1H-kblockd]
+root       361  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/3:2-memcg_kmem_cache]
+root       367  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/5:1H-kblockd]
+root       398  0.0  0.0  26524  9796 ?        Ss   21:24   0:00 /lib/systemd/systemd-journald
+root       408  0.0  0.0  20676  5148 ?        Ss   21:24   0:00 /lib/systemd/systemd-udevd
+root       506  0.0  0.0      0     0 ?        S    21:24   0:00 [watchdogd]
+root       508  0.0  0.0      0     0 ?        S    21:24   0:00 [irq/144-mei_me]
+root       578  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/5:4-events]
+root       625  0.0  0.0      0     0 ?        S    21:24   0:00 [nv_queue]
+root       626  0.0  0.0      0     0 ?        S    21:24   0:00 [nv_queue]
+root       632  0.0  0.0      0     0 ?        S    21:24   0:00 [nvidia-modeset/]
+root       633  0.0  0.0      0     0 ?        S    21:24   0:00 [nvidia-modeset/]
+root       738  0.0  0.0   8088  4712 ?        Ss   21:24   0:03 /usr/sbin/haveged --Foreground --verbose=1 -w 1024
+root       771  0.0  0.0   6464  2652 ?        Ss   21:24   0:00 /usr/sbin/cron -f
+root       773  0.0  0.0   8256  5244 ?        Ss   21:24   0:00 /usr/sbin/smartd -n
+root       774  0.0  0.0  16252  7692 ?        Ss   21:24   0:01 /lib/systemd/systemd-logind
+root       776  0.0  0.0 221752  4264 ?        Ssl  21:24   0:00 /usr/sbin/rsyslogd -n -iNONE
+root       778  0.0  0.0 235084  6972 ?        Ssl  21:24   0:00 /usr/lib/accountsservice/accounts-daemon
+root       779  0.0  0.0 312932 10244 ?        Ssl  21:24   0:00 /usr/sbin/ModemManager --filter-policy=strict
+message+   781  0.0  0.0   8288  5280 ?        Ss   21:24   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfil
+root       783  0.0  0.0 255360 16572 ?        Ssl  21:24   0:00 /usr/sbin/NetworkManager --no-daemon
+root       786  0.0  0.0  82056  3904 ?        Ssl  21:24   0:00 /usr/sbin/irqbalance --foreground
+root       802  0.0  0.0  14288  2984 ?        Ss   21:24   0:00 /usr/bin/vmware-usbarbitrator
+root       815  0.0  0.0 237456  9532 ?        Ssl  21:24   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       836  0.0  0.0  11852  6632 ?        Ss   21:24   0:00 /usr/sbin/sshd -D
+root       843  0.0  0.0   2636  1668 tty1     Ss+  21:24   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+postgres   855  0.0  0.0 208400 27160 ?        S    21:24   0:00 /usr/lib/postgresql/11/bin/postgres -D /var/lib/postgresql/11/main -
+postgres   859  0.0  0.0 208528  5956 ?        Ss   21:24   0:00 postgres: 11/main: checkpointer   
+postgres   860  0.0  0.0 208540  5808 ?        Ss   21:24   0:00 postgres: 11/main: background writer   
+postgres   861  0.0  0.0 208400  9644 ?        Ss   21:24   0:00 postgres: 11/main: walwriter   
+postgres   862  0.0  0.0 208964  6508 ?        Ss   21:24   0:00 postgres: 11/main: autovacuum launcher   
+postgres   863  0.0  0.0  63612  4932 ?        Ss   21:24   0:00 postgres: 11/main: stats collector   
+postgres   864  0.0  0.0 208828  6432 ?        Ss   21:24   0:00 postgres: 11/main: logical replication launcher   
+root       872  0.0  0.0 136036 14572 ?        Ssl  21:24   0:00 /usr/bin/sddm
+root       874  4.6  0.2 202408 68968 tty7     Ssl+ 21:24   7:00 /usr/lib/xorg/Xorg -nolisten tcp -auth /var/run/sddm/{e794e5a7-c22a-
+root       877  3.4  0.0      0     0 ?        S    21:24   5:13 [irq/146-nvidia]
+root       878  0.0  0.0      0     0 ?        S    21:24   0:00 [nvidia]
+root       879  0.1  0.0      0     0 ?        S    21:24   0:12 [nv_queue]
+rtkit      916  0.0  0.0 152664  2764 ?        SNsl 21:24   0:00 /usr/libexec/rtkit-daemon
+root       952  0.0  0.0      0     0 ?        I<   21:24   0:00 [iprt-VBoxWQueue]
+root       975  0.0  0.0      0     0 ?        S    21:24   0:00 [iprt-VBoxTscThr]
+root      1122  0.0  0.0 229256   972 ?        Ssl  21:24   0:00 /usr/lib/vmware/bin/vmware-vmblock-fuse -o subtype=vmware-vmblock,de
+root      1135  0.0  0.0   2896   192 ?        Ss   21:24   0:00 /usr/bin/vmnet-bridge -s 6 -d /var/run/vmnet-bridge-0.pid -n 0
+root      1175  0.0  0.0   2868   188 ?        Ss   21:24   0:00 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet1.pid /de
+root      1184  0.0  0.0   8936  5620 ?        Ss   21:24   0:00 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet1/dhcpd/dhcpd.conf -l
+root      1187  0.0  0.0   3744  2464 ?        S    21:24   0:00 /usr/bin/vmnet-natd -s 6 -m /etc/vmware/vmnet8/nat.mac -c /etc/vmwar
+root      1189  0.0  0.0   2868   184 ?        Ss   21:24   0:00 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet8.pid /de
+root      1198  0.0  0.0   8936  5648 ?        Ss   21:24   0:00 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet8/dhcpd/dhcpd.conf -l
+root      1228  0.0  0.0   4572   456 ?        Ss   21:24   0:00 /usr/sbin/vmware-authdlauncher
+root      1233  0.0  0.2 1229048 82120 ?       Sl   21:24   0:04 /usr/lib/vmware/bin/vmware-hostd -a /etc/vmware/hostd/config.xml
+root      1239  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/0:3-mm_percpu_wq]
+root      1260  0.0  0.0  56092 14268 ?        S    21:24   0:00 /usr/lib/x86_64-linux-gnu/sddm/sddm-helper --socket /tmp/sddm-auth22
+root      1264  0.0  0.0  18104  9104 ?        Ss   21:24   0:00 /lib/systemd/systemd --user
+root      1265  0.0  0.0  19964  2608 ?        S    21:24   0:00 (sd-pam)
+root      1275  1.2  0.0 1224428 30064 ?       S<sl 21:24   1:52 /usr/bin/pulseaudio --daemonize=no
+root      1277  0.0  0.2 349208 69752 ?        SLl  21:24   0:02 /usr/bin/kwalletd5 --pam-login 7 3
+root      1278  0.0  0.0   2380  1764 ?        S    21:24   0:00 /bin/sh /usr/bin/startkde
+root      1294  0.0  0.0   7656  4892 ?        Ss   21:24   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfi
+root      1314  0.0  0.0   5852   492 ?        Ss   21:24   0:00 /usr/bin/ssh-agent /usr/bin/startkde
+root      1337  0.0  0.0   2180    84 ?        S    21:24   0:00 /usr/lib/x86_64-linux-gnu/libexec/kf5/start_kdeinit --kded +kcminit_
+root      1338  0.0  0.0 100156 20300 ?        Ss   21:24   0:00 kdeinit5: Running...
+root      1339  0.0  0.1 289692 38912 ?        Sl   21:24   0:02 /usr/lib/x86_64-linux-gnu/libexec/kf5/klauncher --fd=9
+root      1343  0.0  0.1 945972 50864 ?        Sl   21:24   0:07 kded5 [kdeinit5]
+root      1358  0.0  0.1 291108 38440 ?        Sl   21:24   0:03 /usr/bin/kaccess
+root      1360  0.0  0.0  44520  6464 ?        S    21:24   0:00 kwrapper5 /usr/bin/ksmserver
+root      1362  0.0  0.1 289204 37796 ?        Sl   21:24   0:02 /usr/bin/kglobalaccel5
+root      1363  0.0  0.1 369940 43596 ?        Sl   21:24   0:03 /usr/bin/ksmserver
+root      1372  0.0  0.0 236344 18976 ?        Sl   21:24   0:02 /usr/lib/x86_64-linux-gnu/libexec/kf5/kscreen_backend_launcher
+root      1373 10.9  0.8 3279176 272684 ?      Sl   21:24  16:25 /usr/bin/kwin_x11 -session 1012014dc6dd000156732579400000063280006_1
+root      1382  0.0  0.0 155700  5348 ?        Sl   21:24   0:00 /usr/lib/dconf/dconf-service
+root      1389  0.0  0.2 455600 84996 ?        Sl   21:24   0:05 /usr/bin/krunner
+root      1391  0.2  1.0 2872996 360676 ?      Sl   21:24   0:22 /usr/bin/plasmashell
+root      1392  0.0  0.0 249092  9476 ?        Ssl  21:24   0:00 /usr/lib/upower/upowerd
+root      1399  0.0  0.1 442652 41544 ?        Sl   21:24   0:02 /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1
+root      1401  0.0  0.0 244904 22760 ?        Sl   21:24   0:02 /usr/bin/xembedsniproxy
+root      1407  0.0  0.0 244028 21876 ?        Sl   21:24   0:02 /usr/bin/gmenudbusmenuproxy
+root      1413  0.0  0.1 371528 45072 ?        Sl   21:24   0:03 /usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
+root      1445  0.0  0.1 553368 33692 ?        Sl   21:24   0:02 /usr/bin/kactivitymanagerd start-daemon
+root      1446  0.0  0.1 419940 39680 ?        Sl   21:24   0:02 /usr/lib/x86_64-linux-gnu/libexec/org_kde_powerdevil -session 101201
+root      1460  0.0  0.0 308996  8532 ?        Sl   21:24   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+root      1467  0.0  0.0   6860  3676 ?        S    21:24   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/acces
+root      1470  0.0  0.0 233804  4580 ?        Sl   21:24   0:00 /usr/lib/geoclue-2.0/demos/agent
+root      1515  0.0  0.0  44508  6696 ?        Ss   21:24   0:00 /usr/lib/bluetooth/obexd
+root      1527  0.0  0.0 392584 14988 ?        Ssl  21:24   0:01 /usr/lib/udisks2/udisksd
+root      1551  0.0  0.1 291200 38372 ?        Sl   21:24   0:02 /usr/bin/kuiserver5
+root      2278  0.0  0.0 100424 17928 ?        S    21:25   0:00 file.so [kdeinit5] file local:/run/user/0/klauncherBrCcip.1.slave-so
+root      2917  0.0  0.0      0     0 ?        I    21:35   0:00 [kworker/2:1-cgroup_destroy]
+root      3834  0.0  0.0      0     0 ?        I    22:05   0:00 [kworker/1:0]
+root      6094  5.6  0.9 967024 303796 ?       Sl   22:33   4:37 /opt/google/chrome/chrome --no-sandbox
+root      6099  0.0  0.0   5356   748 ?        S    22:33   0:00 cat
+root      6100  0.0  0.0   5356   748 ?        S    22:33   0:00 cat
+root      6102  0.0  0.1 270416 59924 ?        S    22:33   0:00 /opt/google/chrome/chrome --type=zygote --no-sandbox --enable-crash-
+root      6103  0.0  0.0  16612  3584 ?        S    22:33   0:00 /opt/google/chrome/nacl_helper --no-sandbox
+root      6122  4.0  0.5 519992 176120 ?       Sl   22:33   3:18 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=38
+root      6126  0.9  0.3 371204 110140 ?       Sl   22:33   0:46 /opt/google/chrome/chrome --type=utility --field-trial-handle=386847
+root      6188  0.1  0.3 594012 109944 ?       Sl   22:33   0:05 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root      6205  0.1  0.3 609384 116664 ?       Sl   22:33   0:05 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root      6213  0.3  0.5 1817700 197048 ?      Sl   22:33   0:15 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root      6214  0.0  0.2 559692 86868 ?        Sl   22:33   0:00 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root      6217  0.0  0.2 550732 80240 ?        Sl   22:33   0:00 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root      6219  0.0  0.3 593120 107856 ?       Sl   22:33   0:02 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root      7615  0.2  0.6 765268 223648 ?       SNl  22:40   0:12 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root      8422  1.3  0.2 356856 80736 ?        Sl   22:53   0:49 /usr/bin/konsole
+root      8425  0.0  0.0   8596  5348 pts/1    Ss   22:53   0:00 /bin/bash
+root      9226  0.0  0.0   7480  4408 pts/1    T    23:00   0:00 nano LPEC.sh
+root      9542  0.0  0.0      0     0 ?        I    23:05   0:00 [kworker/u16:2-events_unbound]
+root      9853  0.0  0.0   8940  5704 pts/1    T    23:08   0:00 nano LPEC.sh
+root     10010  0.0  0.0   8940  5728 pts/1    T    23:10   0:00 nano LPEC.sh
+root     10810  0.0  0.0      0     0 ?        I    23:22   0:00 [kworker/u16:1-events_unbound]
+root     12214  0.0  0.2 564712 94220 ?        SNl  23:34   0:00 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root     12862  0.0  0.3 579840 102896 ?       SNl  23:39   0:00 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root     13521  4.9  0.4 639256 148464 ?       Sl   23:45   0:25 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root     13602  0.0  0.0      0     0 ?        I    23:46   0:00 [kworker/u16:0-events_unbound]
+root     13772  5.5  0.4 1039680 145956 ?      Sl   23:50   0:13 /usr/share/discord/Discord
+root     13774  0.0  0.1 201488 40308 ?        S    23:50   0:00 /usr/share/discord/Discord --type=zygote --no-sandbox
+root     13795  3.3  0.3 396176 119368 ?       Sl   23:50   0:08 /usr/share/discord/Discord --type=gpu-process --enable-features=Shar
+root     13832 14.3  0.9 1394740 311672 ?      Sl   23:50   0:35 /usr/share/discord/Discord --type=renderer --no-sandbox --autoplay-p
+root     13914  0.2  0.2 571892 97968 ?        SNl  23:50   0:00 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root     13957  0.0  0.1 548948 53068 ?        SNl  23:50   0:00 /opt/google/chrome/chrome --type=renderer --no-sandbox --field-trial
+root     14010  0.0  0.0      0     0 ?        I    23:51   0:00 [kworker/6:0-cgroup_destroy]
+root     14011  0.0  0.0      0     0 ?        I    23:51   0:00 [kworker/6:1]
+root     14109  0.0  0.0   7864  3620 pts/1    S    23:54   0:00 su test
+test     14110  0.3  0.0   7852  4732 pts/1    S    23:54   0:00 bash
+test     14114  0.0  0.0   6712  3356 pts/1    S+   23:54   0:00 /bin/bash ./LPEC.sh
+test     14134  0.0  0.0   8556  3080 pts/1    R+   23:54   0:00 ps aux
+===================Done=========================
+Happy Hacking! I take no responsibility for what you do with this script
